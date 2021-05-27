@@ -1,0 +1,30 @@
+.titulo-principal {
+    text-align: center;
+}
+
+.imagem-conteudo {
+  width: 49%;
+}
+
+.imagem-beneficios {
+  display: inline-block;
+  width: 50%;
+}
+
+.paragrafo {
+  font-size: 20px;
+  width: 50%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.beneficios {
+  width: 45%;
+  font-size: 20px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.beneficios-titulo {
+  text-align: center;
+}

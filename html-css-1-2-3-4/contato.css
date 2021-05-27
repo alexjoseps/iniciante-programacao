@@ -1,0 +1,71 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  width: 940px;
+  margin: 0 auto;
+}
+
+form {
+  margin: 40px 0;
+}
+
+form label, form legend {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.input-padrao {
+  display: block;
+  margin-bottom: 15px; 
+  width: 50%;
+  padding: 10px 15px;
+}
+
+.horario-atendimento {
+  width: 20%;
+  padding: 5px;
+}
+
+.checkbox {
+  margin: 20px 0;
+}
+
+.botao-enviar {
+  width: 40%;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+  background: orange;
+  cursor: pointer;
+  transition: 1s all;
+}
+
+.botao-enviar:hover {
+  background: darkorange;
+  transform: scale(1.1);
+}
+
+table {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.tabela-titulo {
+  font-size: 20px;
+}
+
+th {
+  background: #BBBBBB;
+  font-weight: bold;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px 15px;
+}

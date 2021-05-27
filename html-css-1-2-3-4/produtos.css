@@ -1,0 +1,48 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.produtos-lista {
+  width: 940px;
+  margin: 0 auto;
+  padding: 50px 0;
+}
+
+.produtos-lista li {
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  width: 30%;
+  padding: 30px 20px;
+  margin: 0 1.5%;
+  box-sizing: border-box;
+  border: 2px solid #000000;
+  border-radius: 10px;
+}
+
+.produtos-lista li:hover {
+  border-color: #C78C19;
+}
+
+.produtos-lista li:active {
+  border-color: #088C19;
+}
+
+.produtos-lista li:hover h2 {
+  font-size: 34px;
+}
+
+.produtos-lista h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.produto-descricao {
+  font-size: 18px;
+}
+
+.produto-preco {
+  margin-top: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
